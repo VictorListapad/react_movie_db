@@ -44,9 +44,28 @@ main {
   justify-content: space-between;
 }
 
-.movie {
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.row {
+  width: 100vw;
+  position: relative;
+}
+.row > div {
   min-width: 100vw;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+}
+#movie-title {
+  width: 98vw;
+  color: #fff;
+}
+
+.btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 2rem;
+  background-color: #2979ff;
 }
