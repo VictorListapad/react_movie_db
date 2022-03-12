@@ -69,3 +69,7 @@ main {
   margin-right: 2rem;
   background-color: #2979ff;
 }
+.preloader-wrapper {
+  display: flex;
+  justify-content: center;
+}
